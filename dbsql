@@ -1,0 +1,64 @@
+-- phpMyAdmin SQL Dump
+-- version 5.1.3
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: May 14, 2022 at 03:08 AM
+-- Server version: 10.4.24-MariaDB
+-- PHP Version: 8.1.5
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+--
+-- Database: `web_app`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `ishciler`
+--
+
+CREATE TABLE `ishciler` (
+  `ID` int(100) NOT NULL,
+  `USERNAME` varchar(10) NOT NULL,
+  `AD` varchar(250) NOT NULL,
+  `SOYAD` varchar(250) NOT NULL,
+  `DOGUM_TARIXI` varchar(10) NOT NULL,
+  `MAIL` varchar(30) NOT NULL,
+  `SIFRE` varchar(40) NOT NULL,
+  `HIRE_DATE` varchar(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `ishciler`
+--
+
+INSERT INTO `ishciler` (`ID`, `USERNAME`, `AD`, `SOYAD`, `DOGUM_TARIXI`, `MAIL`, `SIFRE`, `HIRE_DATE`) VALUES
+(7, 'mcss', 'Maksud', 'Safin', '2001-11-01', 'maqsudsafin@gmail.com', 'maqa64466', '14-05-2022'),
+(10, 'mcssf', 'Cahid', 'Bayramli', '2003-01-14', 'caxhid@bk.ru', 'cahid123', '14-05-2022'),
+(11, 'mcssfas', 'Cahid', 'Bayramli', '2003-01-14', 'caxhid@bk.ru', 'cahid123', '14-05-2022'),
+(12, 'feridsdx', 'Ferid', 'Sadixzade', '2002-11-23', 'feridsf@gmail.com', 'ferid123', '14-05-2022');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `ishciler`
+--
+ALTER TABLE `ishciler`
+  ADD PRIMARY KEY (`ID`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `ishciler`
+--
+ALTER TABLE `ishciler`
+  MODIFY `ID` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+COMMIT;
