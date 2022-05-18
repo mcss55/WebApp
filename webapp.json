@@ -1,0 +1,24 @@
+[
+{"type":"header","version":"5.2.0","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"webapp"},
+{"type":"table","name":"admin","database":"webapp","data":
+[
+
+]
+}
+,{"type":"table","name":"bloklanmis_userler","database":"webapp","data":
+[
+
+]
+}
+,{"type":"table","name":"hekimler","database":"webapp","data":
+[
+
+]
+}
+,{"type":"table","name":"istifadeciler","database":"webapp","data":
+[
+
+]
+}
+]
