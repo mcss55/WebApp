@@ -1,0 +1,62 @@
+===Database web_app
+
+== Table structure for table admin
+
+|------
+|Column|Type|Null|Default
+|------
+|//**ID**//|int(11)|No|
+|USERNAME|varchar(30)|No|
+|AD|varchar(30)|No|
+|SOYAD|varchar(30)|No|
+|DOGUM_TARIXI|varchar(10)|No|
+|MAIL|varchar(30)|No|
+|SIFRE|varchar(30)|No|
+|HIRE_DATE|varchar(10)|No|
+== Dumping data for table admin
+
+== Table structure for table bloklanmis_userler
+
+|------
+|Column|Type|Null|Default
+|------
+|//**ID**//|int(11)|No|
+|USERNAME|varchar(30)|No|
+|AD|varchar(30)|No|
+|SOYAD|varchar(30)|No|
+|DOGUM_TARIXI|varchar(10)|No|
+|MAIL|varchar(30)|No|
+|SIFRE|varchar(30)|No|
+|HIRE_DATE|varchar(10)|No|
+== Dumping data for table bloklanmis_userler
+
+|1|togi041|togrul|hezizade|2001-11-30|togrulhezizade@gmail.com|togrul123|18-05-2022
+== Table structure for table hekimler
+
+|------
+|Column|Type|Null|Default
+|------
+|//**ID**//|int(11)|No|
+|AD|varchar(30)|No|
+|SOYAD|varchar(30)|No|
+|MAIL|varchar(30)|No|
+|HEKIMLIK_SAHESI|varchar(30)|No|
+|HIRE_DATE|varchar(10)|No|
+== Dumping data for table hekimler
+
+== Table structure for table istifadeciler
+
+|------
+|Column|Type|Null|Default
+|------
+|//**ID**//|int(11)|No|
+|USERNAME|varchar(30)|No|
+|AD|varchar(30)|No|
+|SOYAD|varchar(30)|No|
+|DOGUM_TARIXI|varchar(10)|No|
+|MAIL|varchar(30)|No|
+|SIFRE|varchar(30)|No|
+|HIRE_DATE|varchar(10)|No|
+== Dumping data for table istifadeciler
+
+|2|mcss|maksud|safin|2001-01-11|mcss@gmail.com|maksud123|18-05-2022
